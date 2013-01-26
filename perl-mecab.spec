@@ -15,10 +15,11 @@ Source0:	http://mecab.googlecode.com/files/mecab-perl-%{version}.tar.gz
 # Source0-md5:	bc6d6258aa096e83dcab04be07264775
 URL:		http://code.google.com/p/mecab/
 BuildRequires:	libstdc++-devel
-BuildRequires:	mecab-devel
+BuildRequires:	mecab-devel >= 0.995
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %{?with_tests:BuildRequires:	mecab-ipadic}
+Requires:	mecab >= 0.995
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description

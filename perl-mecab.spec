@@ -6,20 +6,20 @@
 Summary:	MeCab module for Perl
 Summary(pl.UTF-8):	Moduł MeCab dla Perla
 Name:		perl-mecab
-Version:	0.995
+Version:	0.996
 Release:	1
 License:	GPL v2 or LGPL v2.1 or BSD
 Group:		Development/Languages/Perl
 #Source0Download: http://code.google.com/p/mecab/downloads/list
 Source0:	http://mecab.googlecode.com/files/mecab-perl-%{version}.tar.gz
-# Source0-md5:	bc6d6258aa096e83dcab04be07264775
+# Source0-md5:	af03fd644dfdfa239c63ae6279bfc4ce
 URL:		http://code.google.com/p/mecab/
 BuildRequires:	libstdc++-devel
-BuildRequires:	mecab-devel >= 0.995
+BuildRequires:	mecab-devel >= 0.996
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %{?with_tests:BuildRequires:	mecab-ipadic}
-Requires:	mecab >= 0.995
+Requires:	mecab >= 0.996
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description

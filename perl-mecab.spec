@@ -7,7 +7,7 @@ Summary:	MeCab module for Perl
 Summary(pl.UTF-8):	Moduł MeCab dla Perla
 Name:		perl-mecab
 Version:	0.996
-Release:	3
+Release:	4
 License:	GPL v2 or LGPL v2.1 or BSD
 Group:		Development/Languages/Perl
 #Source0Download: http://code.google.com/p/mecab/downloads/list

@@ -55,5 +55,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS BSD COPYING README bindings.html
 %{perl_vendorarch}/MeCab.pm
 %dir %{perl_vendorarch}/auto/MeCab
-%{perl_vendorarch}/auto/MeCab/MeCab.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/MeCab/MeCab.so

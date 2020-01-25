@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test" (requires mecab dictionary)
 #
-%include	/usr/lib/rpm/macros.perl
 Summary:	MeCab module for Perl
 Summary(pl.UTF-8):	Moduł MeCab dla Perla
 Name:		perl-mecab
